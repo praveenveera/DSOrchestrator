@@ -10,7 +10,7 @@ def index():
 # method for dashboard page
 @app.route('/dash')
 def dash():
-    return render_template('dashboard.html')
+    return render_template('sidenav.html')
 
 
 if __name__== '__main__':
